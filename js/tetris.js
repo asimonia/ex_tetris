@@ -175,6 +175,8 @@ function valid( offsetX, offsetY, newCurrent ) {
 }
 
 function newGame() {
+    var begin = new Audio("sound/Tchaikovsky.mp3");
+    begin.play();
     clearInterval(interval);
     init();
     newShape();
